@@ -3,6 +3,13 @@ Identifying distracted drivers using Convolutional Neural Networks
 
 Using state Farm's distracted driving dataset, we can identify 10 different classess of distraction including on the phone, using radio, doing hair and make-up etc.
 
+<p align="center">
+  <img src="output/distractions1.jpg" /> 
+  <img src="output/distractions2.jpg" /> 
+  <img src="output/distractions3.jpg" /> 
+  <img src="output/distractions4.jpg" /> 
+</p>
+
 Labels are:
 ```
 { 
@@ -32,11 +39,3 @@ Training is done in ``driver_detection_train.py``, prediction is done in `driver
 VGG16 and a basic Convolutional Neural Network were trained from scratch. Images were preprocessed by downsampling the image, converting to grayscale
 and slicing a portion of the left hand-side image. Data was split (90-10) for training and validation and a seperate test dataset was used (see below). A generator was used (see `driver-detection-utils.py`) to feed batch_size images and labels for model training. 
 
-## Results
-
-<p align="center">
-  <img src="output/distractions1.jpg" /> 
-  <img src="output/distractions2.jpg" /> 
-  <img src="output/distractions3.jpg" /> 
-  <img src="output/distractions4.jpg" /> 
-</p>
