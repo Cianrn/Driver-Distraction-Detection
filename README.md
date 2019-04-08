@@ -27,10 +27,16 @@ Labels are:
 - [x] numpy
 - [x] matplotlib
 
+Training is done in ``driver_detection_train.py``, prediction is done in `driver_detection_predict.py` and `driver_detection_utils.py` provides helper functions
 ## Training
 VGG16 and a basic Convolutional Neural Network were trained from scratch. Images were preprocessed by downsampling the image, converting to grayscale
 and slicing a portion of the left hand-side image. Data was split (90-10) for training and validation and a seperate test dataset was used (see below). A generator was used (see `driver-detection-utils.py`) to feed batch_size images and labels for model training. 
 
- 
 ## Results
-Some sample test images are shown below
+
+<p align="center">
+  <img src="output/distractions1.jpg" /> 
+  <img src="output/distractions2.jpg" /> 
+  <img src="output/distractions3.jpg" /> 
+  <img src="output/distractions4.jpg" /> 
+</p>
