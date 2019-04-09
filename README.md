@@ -3,6 +3,8 @@ Identifying distracted drivers using Convolutional Neural Networks
 
 Using state Farm's distracted driving dataset, we can identify 10 different classess of distraction including on the phone, using radio, doing hair and make-up etc.
 
+Below are some prediction outputs:
+
 <p align="center">
   <img src="output/distractions1.jpg" /> 
   <img src="output/distractions2.jpg" /> 
